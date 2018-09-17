@@ -6,3 +6,9 @@ npm-debug.log
 
 # Environment Variables should NEVER be published
 .env
+
+# VSCODE
+.vscode
+
+# Lock
+package-lock.json
