@@ -8,7 +8,7 @@ router.get('/signup', (req, res) => {
 
 router.post('/signup', (req, res, next) => {
 	User.register(req.body, req.body.password)
-	.then(user => res.redirect('auth/login'))
+	.then(user => res.redirect('/auth/login'))
 	.catch(error => next(error))
 })
 
